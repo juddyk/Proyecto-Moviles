@@ -1,0 +1,216 @@
+<resources>
+    <string name="app_name">APPrende</string>
+    <string name="AppID">102058556843013</string>
+    <string name="welcome">Welcome to</string>
+    <string name="username">Username or email</string>
+    <string name="password">Password</string>
+    <string name="signin">SIGN IN</string>
+    <string name="login">LOG IN</string>
+    <string name="or">or</string>
+    <string name="Info">Your baby will begin an endless journey through reading!</string>
+    <string name="insert">Please insert your personal data in the boxes</string>
+    <string name="google">Iniciar sesión con Google</string>
+    <string name="SO">Salir</string>
+    <string name="saludo">Hello!</string>
+    <string name="signed_int_fmt">%s</string>
+    <string name="title_activity_after_splash">afterSplash</string>
+    <string name="texto1">it´s so easy</string>
+    <string name="texto2">Learn with bits</string>
+    <string name="texto3">Simple plan</string>
+    <string name="textButtonStart">Start</string>
+
+    <string-array name="animales1"><item>EAGLE</item><item>VULTURE</item><item>CONDOR</item><item>FALCON</item><item>BUZZARD</item>
+    </string-array>
+    <string-array name="animales2"><item>DONKEY</item><item>PONY</item><item>ZEBRA</item><item>HORSE</item><item>MULE</item>
+    </string-array>
+    <string-array name="animales3"><item>DEER</item><item>ANTELOPE</item><item>GAZELLE</item><item>REINDEER</item><item>MOOSE</item>
+    </string-array>
+    <string-array name="animales4"><item>EEL</item><item>CLAMS</item><item>MUSSEL</item><item>OYSTER</item><item>LEECH</item>
+    </string-array>
+    <string-array name="animales5"><item>SHRIMP</item><item>CRAB</item><item>PRAWN</item><item>LOBSTER</item><item>STARFISH</item>
+    </string-array>
+    <string-array name="animales6"><item>ANCHOVY</item><item>COD</item><item>HERRING</item><item>TUNA</item><item>MACKEREL</item>
+    </string-array>
+    <string-array name="animales7"><item>SOLE</item><item>SWORDFISH</item><item>SALMON</item><item>SARDINE</item><item>TROUT</item>
+    </string-array>
+    <string-array name="animales8"><item>FERRET</item><item>WEASEL</item><item>MINK</item><item>SKUNK</item><item>BADGER</item>
+    </string-array>
+    <string-array name="animales9"><item>OSTRICH</item><item>CRANE</item><item>PELICAN</item><item>FLAMINGO</item><item>STORK</item>
+    </string-array>
+    <string-array name="animales10"><item>WHALE</item><item>DOLPHIN</item><item>SHARK</item><item>RAY</item><item>MANATEE</item>
+    </string-array>
+    <string-array name="animales11"><item>SPIDER</item><item>CICADA</item><item>SCORPION</item><item>CRICKET</item><item>GRASSHOPPER</item>
+    </string-array>
+    <string-array name="animales12"><item>LADYBIRD</item><item>FLEA</item><item>TICK</item><item>BEDBUG</item><item>BEETLE</item>
+    </string-array>
+    <string-array name="animales13"><item>LARK</item><item>CUCKOO</item><item>SWALLOW</item><item>PARAKEET</item><item>TOUCAN</item>
+    </string-array>
+    <string-array name="animales14"><item>GORILLA</item><item>BABOON</item><item>MONKEY</item><item>DRILL</item><item>CHIMPANZEE</item>
+    </string-array>
+    <string-array name="animales15"><item>COCKATOO</item><item>PARROT</item><item>HUMMINGBIRD</item><item>QUAIL</item><item>ROADRUNNER</item>
+    </string-array>
+    <string-array name="animales16"><item>SLUG</item><item>SNAIL</item><item>WORM</item><item>EARTHWORM</item><item>CARTEPILLAR</item>
+    </string-array>
+    <string-array name="animales17"><item>SPARROW</item><item>MAGPIE</item><item>GOLDFINCH</item><item>WOODPECKER</item><item>PHEASANT</item>
+    </string-array>
+    <string-array name="animales18"><item>BEAVER</item><item>GROUNDHOG</item><item>OTTER</item><item>SQUIRREL</item><item>RACOON</item>
+    </string-array>
+    <string-array name="animales19"><item>ROBIN</item><item>CANARY</item><item>BLACKBIRD</item><item>NIGHTINGALE</item><item>PARTRIDGE</item>
+    </string-array>
+    <string-array name="animales20"><item>PORCUPINE</item><item>HEDGEHOG</item><item>MOLE</item><item>MOUSE</item><item>RAT</item>
+    </string-array>
+    <string-array name="animales21"><item>PIGEON</item><item>CROW</item><item>OWL</item><item>BAT</item><item>SEAGULL</item>
+    </string-array>
+    <string-array name="animales22"><item>LIZARD</item><item>NEWT</item><item>MANTELLA</item><item>FROG</item><item>SALAMANDER</item>
+    </string-array>
+    <string-array name="animales23"><item>HIPPOPOTAMUS</item><item>RHINO</item><item>GIRAFFE</item><item>KANGAROO</item><item>ELEPHANT</item>
+    </string-array>
+    <string-array name="animales24"><item>SWAN</item><item>MALLARD</item><item>PINTAIL</item><item>GOOSE</item><item>PENGUIN</item>
+    </string-array>
+    <string-array name="animales25"><item>BULL</item><item>COW</item><item>CALF</item><item>OX</item><item>BUFFALO</item>
+    </string-array>
+    <string-array name="animales26"><item>BOA</item><item>ANACONDA</item><item>PYTHON</item><item>COBRA</item><item>RATTLESNAKE</item>
+    </string-array>
+    <string-array name="animales27"><item>BEAR</item><item>ANTEATER</item><item>SLOTH</item><item>PANDA</item><item>POLAR BEAR</item>
+    </string-array>
+    <string-array name="animales28"><item>DALMATIAN</item><item>PUG</item><item>BEAGLE</item><item>CHOW-CHOW</item><item>COLLIE</item>
+    </string-array>
+    <string-array name="animales29"><item>GOAT</item><item>LLAMA</item><item>SHEEP</item><item>CAMEL</item><item>DROMEDARY</item>
+    </string-array>
+    <string-array name="animales30"><item>HEN</item><item>COCK</item><item>TURKEY</item><item>PEACOCK</item><item>CHICK</item>
+    </string-array>
+    <string-array name="animales31"><item>ALLIGATOR</item><item>CROCODRILLE</item><item>TURTLE</item><item>CHAMALEON</item><item>IGUANA</item>
+    </string-array>
+    <string-array name="animales32"><item>PANTHER</item><item>COUGAR</item><item>JAGUAR</item><item>LEOPARD</item><item>CHEETAH</item>
+    </string-array>
+    <string-array name="animales33"><item>BEE</item><item>WASP</item><item>FLY</item><item>FIREFLY</item><item>MIDGE</item>
+    </string-array>
+    <string-array name="animales34"><item>GNAT</item><item>DRAGONFLY</item><item>BUTTERFLY</item><item>MOTH</item><item>DAMSELFLY</item>
+    </string-array>
+    <string-array name="animales35"><item>CENTIPEDE</item><item>COCKROACH</item><item>ANT</item><item>TERMINTES</item><item>EARWIGS</item>
+    </string-array>
+    <string-array name="animales36"><item>SQUID</item><item>JELLYFISH</item><item>OCTOPUS</item><item>SEAL</item><item>WALRUS</item>
+    </string-array>
+    <string-array name="animales37"><item>KOALA</item><item>LEMUR</item><item>WOMBAT</item><item>BINTURONG</item><item>RATEL</item>
+    </string-array>
+    <string-array name="animales38"><item>PIG</item><item>TAPIR</item><item>HOG</item><item>WARTHOG</item><item>TAMANDUA</item>
+    </string-array>
+    <string-array name="animales39"><item>JACKAL</item><item>HYENA</item><item>WOLF</item><item>FOX</item><item>DHOLE</item>
+    </string-array>
+    <string-array name="animales40"><item>LION</item><item>TIGER</item><item>LYNX</item><item>SERVAL</item><item>OCELOT</item>
+    </string-array>
+    <string-array name="animales41"><item>RABBIT</item><item>HARE</item><item>MEERKAT</item><item>AGOUTI</item><item>CAPYBARA</item>
+    </string-array>
+    <string-array name="comida1"><item>BACON</item><item>BEEF</item><item>CHICKEN</item><item>DUCK</item><item>HAM</item>
+    </string-array>
+    <string-array name="comida2"><item>BUTTER</item><item>CREAM</item><item>CHEESE</item><item>EGG</item><item>MILK</item>
+    </string-array>
+    <string-array name="comida3"><item>LAMB</item><item>SALAMI</item><item>SAUSAGES</item><item>PORK</item><item>VEAL</item>
+    </string-array>
+    <string-array name="comida4"><item>APPLE</item><item>BANANA</item><item>BLACKCURRANT</item><item>CHERRY</item><item>FIG</item>
+    </string-array>
+    <string-array name="comida5"><item>CAKE</item><item>QUICHE</item><item>CUPCAKE</item><item>COOKIE</item><item>BROWNIE</item>
+    </string-array>
+    <string-array name="comida6"><item>APRICOT</item><item>BLACKBERRY</item><item>BLUEBERRY</item><item>COCONUT</item><item>GOOSEBERRY</item>
+    </string-array>
+    <string-array name="comida7"><item>SUGAR</item><item>CORNFLOUR</item><item>SALT</item><item>PEPPER</item><item>flour</item>
+    </string-array>
+    <string-array name="comida8"><item>GRAPE</item><item>GRAPEFRUIT</item><item>LEMON</item><item>MANGO</item><item>MELON</item>
+    </string-array>
+    <string-array name="comida9"><item>HONEY</item><item>JAM</item><item>MARMALADE</item><item>TOAST</item><item>CORNFLAKES</item>
+    </string-array>
+    <string-array name="comida10"><item>LIME</item><item>ORANGE</item><item>PEACH</item><item>PEAR</item><item>PINEAPPLE</item>
+    </string-array>
+    <string-array name="comida11"><item>PIZZA</item><item>NOODLES</item><item>RICE</item><item>SPAGHETTI</item><item>PASTA</item>
+    </string-array>
+    <string-array name="comida12"><item>PLUM</item><item>POMEGRANATE</item><item>RASPBERRY</item><item>REDCURRANT</item><item>STRAWBERRY</item>
+    </string-array>
+    <string-array name="comida13"><item>KETCHUP</item><item>MAYONESA</item><item>MUSTARD</item><item>VINEGAR</item><item>VINAIGRETTE</item>
+    </string-array>
+    <string-array name="comida14"><item>ARTICHOKE</item><item>ASPARAGUS</item><item>BEANSPROUTS</item><item>BROCOLI</item><item>CARROT</item>
+    </string-array>
+    <string-array name="comida15"><item>AUBERGINE</item>AVOCADO<item>BEETROOT</item><item>CABBAGE</item><item>CAULIFLOWER</item><item>CELERY</item>
+    </string-array>
+    <string-array name="comida16"><item>CHILLI</item><item>COURGETTE</item><item>CUCUMBER</item><item>GARLIC</item><item>GINGER</item>
+    </string-array>
+    <string-array name="comida17"><item>LEEK</item><item>LETTUCE</item><item>MUSHROOM</item><item>ONION</item><item>PEAS</item>
+    </string-array>
+    <string-array name="comida18"><item>POTATO</item><item>PUMPKIN</item><item>RADISH</item><item>ROCKET</item><item>SWEDE</item>
+    </string-array>
+    <string-array name="comida19"><item>CORN</item><item>SWEETCORN</item><item>TOMATO</item><item>TURNIP</item><item>SPINACH</item>
+    </string-array>
+    <string-array name="comida20"><item>BISCUITS</item><item>CHOCOLATE</item><item>CRISPS</item><item>NUTS</item><item>HUMMUS</item>
+    </string-array>
+    <string-array name="comida21"><item>NUTS</item><item>PEANUTS</item><item>SWEETS</item><item>WALNUTS</item><item>OLIVES</item>
+    </string-array>
+    <string-array name="comida22"><item>BASIL</item><item>CHIVES</item><item>PARSLEY</item><item>SAGE</item><item>CINNAMON</item>
+    </string-array>
+    <string-array name="comida23"><item>CORIANDER</item><item>DILL</item><item>ROSEMARY</item><item>THYME</item><item>CUMIN</item>
+    </string-array>
+    <string-array name="arboles1"><item>TRUNK</item><item>TWIG</item><item>ROOTS</item><item>LEAVES</item><item>BRANCH</item>
+    </string-array>
+    <string-array name="arboles2"><item>FOLIAGE</item><item>BARK</item><item>BUSH</item><item>IVY</item><item>CREEPER</item>
+    </string-array>
+    <string-array name="arboles3"><item>CYPRES</item><item>CEDAR</item><item>MAPLE</item><item>OAK</item><item>PINE</item>
+    </string-array>
+    <string-array name="arboles4"><item>CACTUS</item><item>CLOVER</item><item>POPLAR</item><item>WEEDS</item><item>WILLOW</item>
+    </string-array>
+    <string-array name="flores1"><item>CARNATION</item><item>CORNFLOWER</item><item>DAFFODIL</item><item>DAISY</item><item>DAHLIA</item>
+    </string-array>
+    <string-array name="flores2"><item>DANDELION</item><item>DELPHINIUM</item><item>FREESIA</item><item>IRIR</item><item>JASMINE</item>
+    </string-array>
+    <string-array name="flores3"><item>LILAC</item><item>ORCHID</item><item>POPPY</item><item>ROSE</item><item>SUNFLOWER</item>
+    </string-array>
+    <string-array name="prendas1"><item>WAISTCOAT</item><item>OVERCOAT</item><item>COAT</item><item>TAILCOAT</item><item>RAINCOAT</item>
+    </string-array>
+    <string-array name="prendas2"><item>SHIRT</item><item>T-SHIRT</item><item>SWEATER</item><item>JACKET</item><item>DRESS</item>
+    </string-array>
+    <string-array name="prendas3"><item>BOOT</item><item>CLOG</item><item>SHOE</item><item>SANDAL</item><item>SLIPPERS</item>
+    </string-array>
+    <string-array name="prendas4"><item>BRASSIERE</item><item>BIKINI</item><item>UNDERPANTS</item><item>PANTIES</item><item>SOCKS</item>
+    </string-array>
+    <string-array name="prendas5"><item>JEAN</item><item>SHORT</item><item>SKIRT</item><item>TROUSERS</item><item></item>
+    </string-array>
+    <string-array name="prendas6"><item>WOOL</item><item>NYLON</item><item>POLYESTER</item><item>LINEN</item><item>COTTON</item>
+    </string-array>
+    <string-array name="prendas7"><item>CAP</item><item>HAT</item><item>GLASSES</item><item>TIE</item><item>GLOVES </item>
+    </string-array>
+    <string-array name="colores1"><item>yYELLOW</item><item>BLUE</item><item>WHITE</item><item>GRAY</item><item>BROWN</item>
+    </string-array>
+    <string-array name="colores2"><item>ORANGE</item><item>BLACK</item><item>RED</item><item>GREEN</item><item>VIOLET</item>
+    </string-array>
+    <string-array name="colores3"><item>GOLDEN</item><item>FUCHSIA</item><item>CHESTNUT</item><item>MAROON</item><item>PURPLE</item>
+    </string-array>
+    <string-array name="colores4"><item>SILVER</item><item>PINK</item><item>TURQUOISE</item><item>BEIGE</item><item>COPPER</item>
+    </string-array>
+    <string-array name="cuerpo1"><item>BODY</item><item>SKIN</item><item>BLOOD</item><item>VEIN</item><item>ARTERY</item>
+    </string-array>
+    <string-array name="cuerpo2"><item>SKELETON</item><item>BONES</item><item>SKULL</item><item>THORAX</item><item>RIB</item>
+    </string-array>
+    <string-array name="cuerpo3"><item>HEAD</item><item>HAIR</item><item>FACE</item><item>FOREHEAD</item><item>JAW</item>
+    </string-array>
+    <string-array name="cuerpo4"><item>EARS</item><item>NOSE</item><item>CHEEKBONES</item><item>CHEEKS</item><item>CHIN</item>
+    </string-array>
+    <string-array name="cuerpo5"><item>EYES</item><item>EYEBROWS</item><item>EYELIDS</item><item>EYELASHES</item><item>TEAR</item>
+    </string-array>
+    <string-array name="cuerpo6"><item>MOUTH</item><item>LIPS</item><item>TOOTH</item><item>TEETH</item><item>TONGUE</item>
+    </string-array>
+    <string-array name="cuerpo7"><item>NECK</item><item>THROAT</item><item>SHOULDER</item><item>BACK</item><item>CHEST</item>
+    </string-array>
+    <string-array name="cuerpo8"><item>ARM</item><item>ELBOW</item><item>FOREARM</item><item>HAND</item><item>WRIST</item>
+    </string-array>
+    <string-array name="cuerpo9"><item>PALM</item><item>KNUCKLE</item><item>FINGERS</item><item>NAIL</item><item>FIST</item>
+    </string-array>
+    <string-array name="cuerpo10"><item>TRUNCK</item><item>BUST</item><item>WAIST</item><item>UMBILICUS</item><item>HIPS</item>
+    </string-array>
+    <string-array name="cuerpo11"><item>LEG</item><item>KNEE</item><item>ANKLE</item><item>FEET</item><item>TOES</item>
+    </string-array>
+    <!-- falta UNOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO-->
+    <string-array name="cuerpo12"><item>BRAIN</item><item>HEART</item><item>LUNGS</item><item>SPLEEN</item><item>BRAIN</item>
+    </string-array>
+    <string-array name="cuerpo13"><item>STOMACH</item><item>LIVER</item><item>KIDNEYS</item><item>PANCREAS</item><item>APPENDIX</item>
+    </string-array>
+
+
+
+</resources>
