@@ -24,6 +24,7 @@ import com.facebook.GraphRequest;
 import com.facebook.GraphResponse;
 import com.facebook.login.LoginResult;
 import com.facebook.login.widget.LoginButton;
+import com.firebase.client.Firebase;
 import com.google.android.gms.auth.api.Auth;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
@@ -48,15 +49,22 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
     private String name;
     private static final int PREFERENCE_MODE_PRIVATE=0;
     boolean flag=false;
+    private Firebase mRef;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //FACEBOOK
         FacebookSdk.sdkInitialize(getApplicationContext());
+        //FIREBASE
+        Firebase.setAndroidContext(this);
         this.supportRequestWindowFeature(Window.FEATURE_NO_TITLE);
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         setContentView(R.layout.activity_main);
+
+        //mi base de datos en FIREBASE
+        mRef=new Firebase("https://clasefirebase.firebaseio.com/");
 
         preferenceSettings = getPreferences(PREFERENCE_MODE_PRIVATE);
         preferenceEditor=preferenceSettings.edit();
@@ -96,7 +104,6 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
             public void onClick(View v) {
                 String uname=User.getText().toString();
                 String password=Pass.getText().toString();
-
                 String Password=databaseHelper.searchPass(uname);
                 if(password.equals(Password)){
                     preferenceEditor.putBoolean("flag",true);
@@ -128,16 +135,12 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
             startActivity(i);
         }
 
-
-
         GLoginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 signIn();
             }
         });
-
-
 
         loginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
             @Override
@@ -148,16 +151,10 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
                 Intent i = new Intent(MainActivity.this, Mostrar.class);
                 startActivity(i);
             }
-
             @Override
-            public void onCancel() {
-
-            }
-
+            public void onCancel() {}
             @Override
-            public void onError(FacebookException error) {
-
-            }
+            public void onError(FacebookException error) {}
         });
 
     }
@@ -216,8 +213,6 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
             startActivity(i);
         }
     }
-
-
     public void signIn(){
         Intent singInIntent = Auth.GoogleSignInApi.getSignInIntent(mGoogleApiClient);
         startActivityForResult(singInIntent,RC_SIGN_IN);

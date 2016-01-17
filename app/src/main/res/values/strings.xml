@@ -169,7 +169,8 @@
     </string-array>
     <string-array name="prendas4"><item>BRASSIERE</item><item>BIKINI</item><item>UNDERPANTS</item><item>PANTIES</item><item>SOCKS</item>
     </string-array>
-    <string-array name="prendas5"><item>JEAN</item><item>SHORT</item><item>SKIRT</item><item>TROUSERS</item><item></item>
+    <!--FALTAAAAAAAAAAAAAAAAAAAAAAA UNOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO -->
+    <string-array name="prendas5"><item>JEAN</item><item>SHORT</item><item>SKIRT</item><item>TROUSERS</item><item> </item>
     </string-array>
     <string-array name="prendas6"><item>WOOL</item><item>NYLON</item><item>POLYESTER</item><item>LINEN</item><item>COTTON</item>
     </string-array>
@@ -206,7 +207,7 @@
     <string-array name="cuerpo11"><item>LEG</item><item>KNEE</item><item>ANKLE</item><item>FEET</item><item>TOES</item>
     </string-array>
     <!-- falta UNOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO-->
-    <string-array name="cuerpo12"><item>BRAIN</item><item>HEART</item><item>LUNGS</item><item>SPLEEN</item><item>BRAIN</item>
+    <string-array name="cuerpo12"><item>BRAIN</item><item>HEART</item><item>LUNGS</item><item>SPLEEN</item><item> </item>
     </string-array>
     <string-array name="cuerpo13"><item>STOMACH</item><item>LIVER</item><item>KIDNEYS</item><item>PANCREAS</item><item>APPENDIX</item>
     </string-array>
