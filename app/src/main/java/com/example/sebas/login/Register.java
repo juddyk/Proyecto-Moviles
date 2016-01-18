@@ -61,7 +61,7 @@ public class Register extends AppCompatActivity {
                     c.setUsername(username.getText().toString());
                     c.setPassword(pass.getText().toString());
                     //GUARDA EN FIREBASE
-                    //Firebase bd = mRef.child("Usuarios").child(username.getText().toString());
+                    //Firebase bd = mRef.child("UsersPARENT").child(username.getText().toString());
                     //bd.setValue(c);
                     //GUARDA EN SQLite
                     databaseHelper.insertContact(c);

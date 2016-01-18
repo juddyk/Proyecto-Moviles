@@ -22,7 +22,6 @@
         <activity android:name=".splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -31,18 +30,21 @@
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
             android:label="@string/app_name"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-
         <provider
             android:name="com.facebook.FacebookContentProvider"
             android:authorities="com.facebook.app.FacebookContentProvider1234"
             android:exported="true" />
-
         <activity android:name=".Mostrar" />
         <activity android:name=".Register" />
         <activity
             android:name=".afterSplash"
             android:label="@string/title_activity_after_splash"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".premio" />
+        <activity android:name=".KidRegister" />
+        <activity android:name=".addChild"></activity>
+
+
     </application>
 
 </manifest>

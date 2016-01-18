@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@color/steelblue"
+    tools:context="com.example.sebas.login.Mostrar">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.example.sebas.login.Mostrar">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/idTitle"
+            android:layout_height="wrap_content"
+            android:text="@string/msgTitle"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textColor="@color/whitesmoke"
+            />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="300sp"
+            android:id="@+id/Lst"/>
+
+        <Button
+            android:layout_marginTop="20sp"
+            android:layout_width="150sp"
+            android:layout_height="70sp"
+            android:layout_gravity="center"
+            android:id="@+id/newButton"
+            android:textSize="25sp"
+            android:textColor="@color/whitesmoke"
+            android:background="@drawable/button4"
+            android:text="@string/New"/>
+    </LinearLayout>
+</ScrollView>

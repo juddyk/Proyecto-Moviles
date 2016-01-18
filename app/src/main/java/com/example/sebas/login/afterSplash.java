@@ -87,16 +87,16 @@ public class afterSplash extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 tv.setText(R.string.texto3);
-                iv.setImageResource(R.drawable.play);
-                iv.setBackgroundResource(R.drawable.animation);
-                slideShowAnimation = (AnimationDrawable) iv.getBackground();
+                iv.setImageResource(R.drawable.plan0_47);
+       //         iv.setBackgroundResource(R.drawable.animation);
+         //       slideShowAnimation = (AnimationDrawable) iv.getBackground();
                 btn1.setBackgroundResource(R.drawable.button2);
                 btn2.setBackgroundResource(R.drawable.button2);
                 btn3.setBackgroundResource(R.drawable.button1);
             }
         });
     }
-
+    /*
     public boolean onTouchEvent(MotionEvent event) {
         if (event.getAction() == MotionEvent.ACTION_DOWN) {
             iv.setImageResource(R.drawable.vacio);
@@ -109,6 +109,6 @@ public class afterSplash extends AppCompatActivity {
             return true;
         }
         return super.onTouchEvent(event);
-    }
+    }*/
 
 }
