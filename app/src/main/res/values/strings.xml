@@ -52,8 +52,8 @@
     <string name="star10">STAR10</string>
     <string name="star11">STAR11</string>
     <string name="star12">STAR12</string>
-    <!-- CONTENIDO -->
 
+    <!-- CONTENIDO -->
     <string-array name="animales1">
         <item>EAGLE</item>
         <item>VULTURE</item>
@@ -578,13 +578,12 @@
         <item>PANTIES</item>
         <item>SOCKS</item>
     </string-array>
-    <!--FALTAAAAAAAAAAAAAAAAAAAAAAA UNOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO -->
     <string-array name="prendas5">
         <item>JEAN</item>
         <item>SHORT</item>
         <item>SKIRT</item>
         <item>TROUSERS</item>
-        <item> </item>
+        <item>LEGGINS</item>
     </string-array>
     <string-array name="prendas6">
         <item>WOOL</item>
@@ -705,21 +704,18 @@
         <item>FEET</item>
         <item>TOES</item>
     </string-array>
-    <!-- falta UNOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO-->
     <string-array name="cuerpo12">
         <item>BRAIN</item>
         <item>HEART</item>
         <item>LUNGS</item>
         <item>SPLEEN</item>
-        <item> </item>
+        <item>STOMACH</item>
     </string-array>
     <string-array name="cuerpo13">
-        <item>STOMACH</item>
+        <item>BOWELS</item>
         <item>LIVER</item>
         <item>KIDNEYS</item>
         <item>PANCREAS</item>
         <item>APPENDIX</item>
     </string-array>
-
-
 </resources>

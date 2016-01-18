@@ -9,9 +9,6 @@ import android.database.sqlite.SQLiteOpenHelper;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by sebas on 1/15/2016.
- */
 public class kidDatabaseHelper extends SQLiteOpenHelper {
     private static final int DATABASE_VERSION = 1;
     private static final String KID_DATABASE_NAME = "kids.db";
@@ -19,16 +16,17 @@ public class kidDatabaseHelper extends SQLiteOpenHelper {
     private static final String KID_COLUMN_ID = "id";
     private static final String KID_COLUMN_NAME = "name";
     private static final String KID_COLUMN_SEX = "sex";
-    private static final String KID_COLUMN_FECHA = "date";
+    private static final String KID_COLUMN_edad = "age";
     private static final String KID_COLUMN_MINUTOS = "min";
     private static final String KID_COLUMN_HORA = "hour";
     private static final String KID_COLUMN_LENGUAJE = "language";
-
+    private static final String KID_COLUMN_LEVEL = "level";
+    private static final String KID_COLUMN_PADRE = "padre";
     SQLiteDatabase db;
 
 
     private static final String TABLE_CREATE = "create table kids (id integer primary key not null , "+
-            "name text not null , sex text not null , date integer , min integer , hour integer , language text not null);";
+            "name text not null , sex text not null , age integer , min integer , hour integer , language text not null , level integer , padre text not null);";
 
     public kidDatabaseHelper(Context context){
         super(context, KID_DATABASE_NAME, null, DATABASE_VERSION);
@@ -58,10 +56,11 @@ public class kidDatabaseHelper extends SQLiteOpenHelper {
         values.put(KID_COLUMN_ID,count);
         values.put(KID_COLUMN_NAME,c.getName());
         values.put(KID_COLUMN_SEX,c.getSexo());
-        values.put(KID_COLUMN_FECHA,c.getFecha());
+        values.put(KID_COLUMN_edad,c.getedad());
         values.put(KID_COLUMN_HORA, c.getHora());
         values.put(KID_COLUMN_MINUTOS, c.getMinutos());
         values.put(KID_COLUMN_LENGUAJE, c.getLenguaje());
+        values.put(KID_COLUMN_LEVEL, c.getLevel());
 
         db.insert(KID_TABLE_NAME, null, values);
         db.close();
@@ -103,14 +102,18 @@ public class kidDatabaseHelper extends SQLiteOpenHelper {
         if (cursor.moveToFirst()) {
             do {
                 if((cursor.getString(2)).equals("Boy")){
-                    Childs.add(new Child(R.drawable.cara_nino, cursor.getString(6),
+                    Child newKid=new Child(R.drawable.cara_nino, cursor.getString(6),
                             cursor.getString(1),
-                            cursor.getInt(3),cursor.getInt(4),cursor.getInt(5)));
+                            cursor.getInt(7),cursor.getInt(5),cursor.getInt(4));
+                    newKid.setedad(cursor.getInt(5));
+                    Childs.add(newKid);
                 }
                 else{
-                    Childs.add(new Child(R.drawable.cara_nina, cursor.getString(6),
+                    Child newKid=new Child(R.drawable.cara_nina, cursor.getString(6),
                             cursor.getString(1),
-                            cursor.getInt(3),cursor.getInt(4),cursor.getInt(5)));
+                            cursor.getInt(7),cursor.getInt(5),cursor.getInt(4));
+                    newKid.setedad(cursor.getInt(5));
+                    Childs.add(newKid);
                 }
             }
             while (cursor.moveToNext());

@@ -20,4 +20,7 @@
         android:id="@+id/continuar"
         android:textSize="25sp"
         android:text="@string/msgBtn"/>
+
+
+
 </LinearLayout>

@@ -45,7 +45,7 @@ public class KidRegister extends AppCompatActivity {
                 String nombre = name.getText().toString();
                 kidSex = sex.getSelectedItem().toString();
                 int day = date.getDayOfMonth();
-                int month = date.getMonth()+1;
+                int month = date.getMonth();
                 int year = date.getYear();
                 int hour = time.getCurrentHour();
                 int min = time.getCurrentMinute();

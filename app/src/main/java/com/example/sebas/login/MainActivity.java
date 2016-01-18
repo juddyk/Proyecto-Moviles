@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
         preferenceEditor=preferenceSettings.edit();
 
         if(preferenceSettings.getBoolean("flag",flag)){
-            Intent i = new Intent(MainActivity.this, Mostrar.class);
+            Intent i = new Intent(MainActivity.this, addChild.class);
             i.putExtra("nombre", preferenceSettings.getString("name",name));
             startActivity(i);
         }
@@ -109,7 +109,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
                     preferenceEditor.putBoolean("flag",true);
                     preferenceEditor.putString("name",uname);
                     preferenceEditor.commit();
-                    Intent i = new Intent(MainActivity.this, Mostrar.class);
+                    Intent i = new Intent(MainActivity.this, addChild.class);
                     i.putExtra("nombre",uname);
                     startActivity(i);
                 }
@@ -131,7 +131,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
         callbackManager= CallbackManager.Factory.create();
         AccessToken accessToken = AccessToken.getCurrentAccessToken();
         if( accessToken != null ){
-            Intent i = new Intent(MainActivity.this, Mostrar.class);
+            Intent i = new Intent(MainActivity.this, addChild.class);
             startActivity(i);
         }
 
@@ -148,7 +148,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
                 if (AccessToken.getCurrentAccessToken() != null) {
                     RequestData();
                 }
-                Intent i = new Intent(MainActivity.this, Mostrar.class);
+                Intent i = new Intent(MainActivity.this, addChild.class);
                 startActivity(i);
             }
             @Override
@@ -208,7 +208,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
             preferenceEditor.putBoolean("flag",true);
             preferenceEditor.putString("name",name);
             preferenceEditor.commit();
-            Intent i = new Intent(MainActivity.this, Mostrar.class);
+            Intent i = new Intent(MainActivity.this, addChild.class);
             i.putExtra("nombre", getString(R.string.signed_int_fmt,acct.getDisplayName()));
             startActivity(i);
         }
